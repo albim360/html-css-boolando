@@ -7,3 +7,37 @@
 img {
     max-width: 100%;
 }
+
+.nav-sup {
+    background-color: rgb(295, 93, 0);
+    min-height: 55px;
+    margin-bottom: 38px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 22px;
+    /* background-color: blue; DEBUG RULE */
+}
+
+.row {
+    display: flex;
+    /* background-color: rgb(98, 15, 15); DEBUG RULE */
+}
+
+.card {
+    flex-basis: calc(100%/3);
+    /* background-color: coral; DEBUG RULE */
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.img-card {
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(25, 25, 25); /* DEBUG RULE */
+    min-height: 70px;
+}

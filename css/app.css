@@ -8,17 +8,26 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    min-width: 100%;
+}
+
 .nav-sup {
     background-color: rgb(295, 93, 0);
-    min-height: 55px;
+    min-height: 48px;
     margin-bottom: 38px;
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding-top: 22px;
-    /* background-color: blue; DEBUG RULE */
+    padding-top: 80px;
 }
 
 .row {
@@ -35,6 +44,38 @@ img {
 
 .img-card {
     background-size: cover;
+}
+
+.heart {
+    background-color: white;
+    position: relative;
+    padding: 6px;
+    left: 265px;
+    bottom: 414px;
+}
+
+.sale {
+    background-color: red;
+    padding: 2px;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    bottom: 55px;
+    right: 25px;
+}
+
+.eco {
+    background-color: rgb(0, 135, 0);
+    font-size: 14px;
+    color: white;
+    padding: 2px;
+    position: relative;
+    bottom: 55px;
+    right: 27px;
+}
+
+.brand {
+    font-size: 10px;
 }
 
 footer {

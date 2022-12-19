@@ -125,6 +125,20 @@ li {
 }
 
 footer {
-    background-color: rgb(25, 25, 25); /* DEBUG RULE */
+    background-color: rgb(25, 25, 25); 
     min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.h4-footer {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.nav-bot {
+    color: white;
+    font-size: 13px;
 }

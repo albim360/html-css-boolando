@@ -21,7 +21,26 @@ header {
 .nav-sup {
     background-color: rgb(295, 93, 0);
     min-height: 48px;
-    margin-bottom: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.logo-img {
+    max-height: 30px;
 }
 
 .container {

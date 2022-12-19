@@ -129,6 +129,7 @@ footer {
     min-height: 70px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -141,4 +142,8 @@ footer {
 .nav-bot {
     color: white;
     font-size: 13px;
+}
+
+.footer-icon {
+    color: white;
 }

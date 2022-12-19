@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    min-width: 100%;
+}
+
+.nav-sup {
+    background-color: rgb(295, 93, 0);
+    min-height: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.logo-img {
+    max-height: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.row {
+    display: flex;
+    /* background-color: rgb(98, 15, 15); DEBUG RULE */
+}
+
+.card {
+    flex-basis: calc(100%/3);
+    /* background-color: coral; DEBUG RULE */
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.img-card {
+    background-size: cover;
+}
+
+
+.heart {
+    background-color: white;
+    position: relative;
+    padding: 7px;
+    left: 266px;
+    bottom: 410px;
+}
+
+
+.sale {
+    background-color: red;
+    font-weight: bold;
+    padding: 2px;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    bottom: 55px;
+    right: 28px;
+}
+
+.eco {
+    background-color: rgb(0, 135, 0);
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 2px;
+    position: relative;
+    bottom: 55px;
+    right: 27px;
+}
+
+.brand {
+    font-size: 11px;
+    position: relative;
+    display: block;
+    bottom: 18px;
+}
+
+.desc {
+    font-size: 13px;
+    position: relative;
+    bottom: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+    font-size: 12px;
+    position: relative;
+    bottom: 17px;
+}
+
+.last-price {
+    font-weight: normal;
+    text-decoration: line-through;
+    color: grey;
+}
+
+footer {
+    background-color: rgb(25, 25, 25); 
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.h4-footer {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.nav-bot {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-icon {
+    color: white;
+}
